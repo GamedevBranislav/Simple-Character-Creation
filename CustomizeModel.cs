@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class CustomizeModel : MonoBehaviour, IDataPersistence
 {
-   
+    // i keep them public because it is just a tiny project 
+    // of course for long run [SerializedField] private is a 100% a way to go
     public GameObject[] heads; //all head models
     public GameObject[] tops;
     public GameObject[] pants;
